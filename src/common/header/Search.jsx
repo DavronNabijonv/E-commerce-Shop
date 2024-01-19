@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Search = ()=> {
     window.addEventListener("scroll", function() {
-        const search = this.document.querySelector(".sratch");
+        const search = this.document.querySelector(".search");
         search.classList.toggle("active", this.window.screenY > 100)
     })
 
