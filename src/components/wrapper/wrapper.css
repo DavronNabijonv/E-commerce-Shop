@@ -28,3 +28,7 @@
     color: gray;
     margin-top: 20px;
 }
+.wrapper_icon {
+    position: relative;
+    top: 4px;
+}

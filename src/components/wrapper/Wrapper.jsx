@@ -39,7 +39,7 @@ const Wrapper = () => {
                                 <>
                                     <div className="product" key={index}>
                                         <div className="img icon-circle">
-                                            <span>{item.cover}</span>
+                                            <span className='wrapper_icon'>{item.cover}</span>
                                         </div>
                                         <h3>{item.title}</h3>
                                         <p>{item.decs}</p>
