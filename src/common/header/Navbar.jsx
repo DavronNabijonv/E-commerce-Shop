@@ -21,8 +21,8 @@ const [MobileMenu, setMobileMenu] = useState(false);
 
                     <div className="navlink">
                         <ul className={MobileMenu ? "nav-links-MobileMenu" : "link f-flex capitalize"}  onClick={()=> setMobileMenu(false)} >
-                            <li>
-                                <Link to ="/">home</Link>
+                            <li >
+                                <Link className="default-home" to ="/">home</Link>
                             </li>
                             <li>
                                 <Link to ="/pages">pages</Link>

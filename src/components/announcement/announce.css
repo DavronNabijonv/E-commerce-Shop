@@ -1,0 +1,10 @@
+.img-left {
+    width: 30%;
+    height: 340px;
+    object-fit: cover;
+}
+
+.img-right {
+    width: 68%;
+    height: 340px;
+}

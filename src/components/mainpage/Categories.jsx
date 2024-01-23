@@ -21,7 +21,7 @@ const Categories = () => {
         },
         {
             cateImg: electronic,
-            cateName: "Electronic",
+            cateName: "Electronics",
         },
         {
             cateImg: cars,
@@ -33,7 +33,7 @@ const Categories = () => {
         },
         {
             cateImg: gift,
-            cateName: "gift",
+            cateName: "gifts",
         },
         {
             cateImg: music,

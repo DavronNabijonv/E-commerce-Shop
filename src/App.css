@@ -12,8 +12,8 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 *::selection {
-  background-color: #ffccd4;
-  color: rgb(148, 212, 255);
+  background-color: #ffc2cb;
+  color: rgb(7, 82, 133);
 }
 .background {
   background-color: #f6f9fc;
@@ -81,6 +81,18 @@ input, button {
   box-shadow: rgb(43 52 69 / 10%) 0 4px 16px;
 }
 
+/* flash deals discount % */
+.discount {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #e94560;
+  padding: 3px 10px;
+  font-size: 12px;
+  border-radius: 50px;
+  color: #fff;
+  margin: 10px;
+}
 
 /*---------------------- Category ----------------*/
 
@@ -207,6 +219,7 @@ input, button {
   opacity: 1;
   cursor: pointer;
 }
+
 /* ----------Main procuct dails--------- */
 
 /* ----------- control btn ------------- */
@@ -246,6 +259,33 @@ input, button {
 }
 
 /* ----------- control btn ------------- */
+
+/* ----------- Heading ------------- */
+.heading .heading-left i{
+  font-size: 30px;
+}
+.heading .heading-left h2 {
+  font-size: 25px;
+  margin: 5px;
+}
+
+.heading .heading-right,
+.heading .heading-left i{
+  text-align: right;
+  color: gray;
+}
+
+/* ----------- Heading ------------- */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 30px;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
 
 
 
